@@ -9,43 +9,56 @@
       * {
         margin: 0;
         padding: 0;
+        /* 取消页面的内间距和外间距 */
       }
       body {
         padding-top: 70px;
         _padding-top: 0;
+        /* 防止绝对定位的nav盖住内容 */
       }
 
       .nav {
         position: fixed;
+        /* 为nav设置绝对定位 */
         top: 0;
         left: 0;
+        /* 让nav保持在浏览器窗口的顶部 */
         width: 100%;
+        /* 让nav铺满整个浏览器顶部 */
         height: 70px;
         background: #444;
       }
       .inner-c {
         padding-left: 25%;
+        /* 让innner-c中的ul居中 */
         margin: 0 auto;
+        /* 让innner-c居中于nav */
         width: 1000px;
+        /* 规定版心 */
         height: 70px;
       }
       .inner-c ul {
         list-style: none;
+        /* 取消列表的样式 */
       }
       .inner-c ul li{
         text-align: center;
+        /* 让li中的text居中于li */
         float: left;
+        /* 浮动,设置li的宽高 */
         width: 100px;
         height: 70px;
-
         line-height: 70px;
+        /* 为文本设置行高,起到垂直居中的作用 */
       }
       .inner-c ul li a {
-        display:inline-block;
+        display:block;
+        /* 将行级元素a转换为块级元素 */
         width: 100px;
         height: 70px;
         color: #ffff;
         text-decoration: none;
+        /* 取消a的样式 */
       }
       .inner-c ul li a:hover{
         background: rgba(187, 187, 187, 0.356);
