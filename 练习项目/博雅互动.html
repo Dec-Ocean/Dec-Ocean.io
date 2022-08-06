@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-style: 14px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            height: 8888px;
+        }
+        
+        .header {
+            height: 58px;
+            /* header会继承body的宽度,不需要再设置宽度 */
+            background: #191d3a;
+        }
+
+        .inner-c {
+            width: 1000px;
+            margin: 0 auto;
+            /* 让inner-c内的内容居中于header */
+        }
+
+        .header .logo {
+            float: left;
+            margin-right: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="inner-c">
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#" class="current">首页</a></li>
+                    <li><a href="#">博雅游戏</a></li>
+                    <li><a href="#">博雅新闻</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">客服中心</a></li>
+                    <li><a href="#">投资者关系</a></li>
+                </ul>
+                <div class="jmwm-box">
+                    <div class="jrwm">
+                        <a href="#">加入我们</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cl"></div>
+    <!-- 外墙法,隔开header和banner -->
+
+    <div class="banner"></div>
+
+    <div class="content innner-c">
+        <div class="product">
+            <ul>
+                <li>
+                    <p>
+                        <img src="" alt="">
+                        <h3>BPT宣传片</h3>
+                        <p class="djdf"><a href="">点击播放</a></p>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <img src="" alt="">
+                        <h3>BPT宣传片</h3>
+                        <p class="djdf"><a href="">点击播放</a></p>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <img src="" alt="">
+                        <h3>BPT宣传片</h3>
+                        <p class="djdf"><a href="">点击播放</a></p>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <img src="" alt="">
+                        <h3>BPT宣传片</h3>
+                        <p class="djdf"><a href="">点击播放</a></p>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
